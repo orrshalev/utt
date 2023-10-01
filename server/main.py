@@ -1,5 +1,10 @@
+from board import Board 
+
 def main():
-    print("I am a server!")
+    my_board = Board()
+    name = input("What is your name ")
+    print(f"Hello {name}")
+    print(my_board.board)
 
 
 if __name__ == "__main__":
